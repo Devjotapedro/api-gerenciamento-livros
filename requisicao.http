@@ -1,0 +1,17 @@
+### Rota para pegar os produtos
+GET http://localhost:4000/livros
+
+### fechando a requisicao
+
+### Rota criando o produto
+POST http://localhost:4000/livros
+Content-Type: application/json
+
+{
+    "id": 1,
+    "titulo": "As Sombras do Amanhã",
+    "autor": "Helena Martins",
+    "ano": 2015,
+    "genero": "Ficção Científica",
+    "sinopse": "Em um futuro distópico, uma jovem cientista luta contra um governo autoritário enquanto tenta desvendar um segredo que pode mudar o destino da humanidade."
+}
